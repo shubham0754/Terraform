@@ -1,0 +1,203 @@
+  1  sudo yum -y update
+    2  clear
+    3  wget https://releases.hashicorp.com/terraform/1.0.8/terraform_1.0.8_linux_amd64.zip
+    4  ls
+    5  unzip terraform_1.0.8_linux_amd64.zip
+    6  ls
+    7  rm -rf terraform_1.0.8_linux_amd64.zip
+    8  ls
+    9  ~/terraform
+   10  clear
+   11  sudo mv terraform /usr/local/bin/
+   12  terraform
+   13  mkdir tf-files
+   14  cd tf-files/
+   15  mkdir test
+   16  cd test/
+   17  ls
+   18  cd tf-files/test/
+   19  vi main.tf
+   20  terraform fmt
+   21  cat main.tf
+   22  clear
+   23  terraform init
+   24  terraform plan
+   25  vi main.tf
+   26  terraform plan
+   27  cp main.tf /tmp/
+   28  ls /tmp/
+   29  vi main.tf
+   30  terraform apply
+   31  terraform apply -var "string_example=my custom"
+   32  ls
+   33  mkdir ~/exs
+   34  mv main.tf ~/exs/
+   35  ls
+   36  cp /tmp/main.tf
+   37  cp /tmp/main.tf .
+   38  ls
+   39  vi main.tf
+   40  clear
+   41  terraform plan
+   42  ls
+   43  cd tf-files/test/
+   44  ls
+   45  cp main.tf variable.tf
+   46  vi variable.tf
+   47  vi terrafrom.tfvars
+   48  cat main.tf
+   49  clear
+   50  vi variable.tf
+   51  ls
+   52  rm -rf terrafrom.tfvars
+   53  vi terraform.tfvars
+   54  ls
+   55  vi .gitignore
+   56  vi main.tf
+   57  terraform plan
+   58  cd tf-files/my-app-infra/
+   59  vim main.tf
+   60  z*
+   61  ls
+   62  z*
+   63  cd tf-files/test/
+   64  ls
+   65  clear
+   66  aws configure --profile terraform
+   67  s3 list
+   68  ls
+   69  vi main.tf
+   70  terraform fmt
+   71  terraform plan
+   72  vi main.tf
+   73  terraform plan
+   74  clear
+   75  ls
+   76  vi variable.tf
+   77  vi main.tf
+   78  vi variable.tf
+   79  terraform plan
+   80  vi variable.tf
+   81  terraform plan
+   82  terraform apply
+   83  vi main.tf
+   84  terraform apply
+   85  terraform apply -var "vpc_name=TCS"
+   86  clear
+   87  vim output.tf
+   88  cd tf-files/
+   89  ls
+   90  cd my-app-infra/
+   91  ls
+   92  vim main.tf
+   93  terraform apply
+   94  vim main.tf
+   95  ls
+   96  cd tf-files/test/
+   97  ls
+   98  vi outputs.tf
+   99  terraform apply -var "vpc_name=TCS"
+  100  cat main.tf
+  101  vi outputs.tf
+  102  terraform apply -var "vpc_name=TCS"
+  103  clear
+  104  cd tf-files/
+  105  mkdir my-app-infra
+  106  ls
+  107  cd my-app-infra/
+  108  cp ../test/
+  109  cp . ./test/
+  110  cp ../test/
+  111  vi provider.tf
+  112  ls
+  113  vim main.tf
+  114  terraform init
+  115  terraform plan
+  116  terraform apply
+  117  vim main.tf
+  118  terraform apply
+  119  vim main.tf
+  120  terraform apply
+  121  vim main.tf
+  122  terraform apply
+  123  vim main.tf
+  124  terraform apply
+  125  clear
+  126  vi main.tf
+  127  terraform apply --auto-approve
+  128  cd tf-files/my-app-infra/
+  129  ls
+  130  vim main.tf
+  131  terraform apply
+  132  vim main.tf
+  133  terraform apply
+  134  vim main.tf
+  135  kill -9  6509
+  136  vim main.tf
+  137  ls
+  138  ls -a
+  139  rm -rf .main.tf.swp
+  140  vim main.tf
+  141  terraform apply
+  142  cd tf-files/my-app-infra/
+  143  ls
+  144  vi main.tf
+  145  cd tf-files/test/
+  146  ls
+  147  vim main.tf
+  148  cd .
+  149  cd ..
+  150  cd my-app-infra/
+  151  ls
+  152  vim main.tf
+  153  ls -a
+  154  rm -rf .main.tf.swp
+  155  vi main.tf
+  156  terraform apply
+  157  cd tf-files/my-app-infra/
+  158  ls
+  159  vi ec2.tf
+  160  ls -a
+  161  rm -rf.ec2.tf.swp
+  162  rm -rf .ec2.tf.swp
+  163  vi ec2.tf
+  164  cat main.tf
+  165  clear
+  166  vi ec2.tf
+  167  terraform fmt
+  168  vi ec2.tf
+  169  vi ecomm.sh
+  170  vi ec2.tf
+  171  terraform fmt
+  172  terraform apply
+  173  vi ec2.tf
+  174  terraform apply
+  175  vi ec2.tf
+  176  terraform fmt
+  177  vi ec2.tf
+  178  terraform fmt
+  179  vi ec2.tf
+  180  terraform fmt
+  181  terraform apply
+  182  vi ecomm.sh
+  183  terraform apply
+  184  vi ec2.tf
+  185  terraform apply
+  186  vi ec2.tf
+  187  terraform apply
+  188  vi ec2.tf
+  189  terraform apply
+  190  vi ec2.tf
+  191  terraform apply
+  192  vi ec2.tf
+  193  terraform apply
+  194  vi ec2
+  195  vi ec2.tf
+  196  terraform apply
+  197  cat main.tf
+  198  vi ec2.tf
+  199  terraform apply
+  200  vi ec2.tf
+  201  terraform apply
+  202  history
+
